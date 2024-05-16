@@ -34,14 +34,6 @@ class _TheIngredientModalBottom extends State<TheIngredientModalBottom> {
         ),
       ),
     );
-    return Scaffold(
-        appBar: AppBar(
-          backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-          title: const Text("Ingredient Detail"),
-        ),
-        body: SingleChildScrollView(
-            child: createIngredient()
-        ));
   }
 
   Widget createIngredient(){
